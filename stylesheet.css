@@ -1,0 +1,66 @@
+/* -------------------- CSSは一番下から書き始めてください！ -------------------- */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN";
+}
+
+
+/* -------------------- CSSはここから追加していきましょう！ -------------------- */
+
+.header-in p {
+  margin: 0px;
+  display: inline-block;
+}
+
+header img {
+  vertical-align: bottom;
+}
+
+header {
+  height: 70px;
+}
+
+.header-in {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background-color: #fff;
+  padding: 15px 50px;
+}
+
+.divider {
+  height:1000px;
+  background-color: blue;
+}
+
+.btn {
+  width: 318px;
+  height: 44px;
+  border: 1px solid #db6b64;
+  background-color: #db6b64;
+  border-radius: 25px;
+  text-align: center;
+  display: inline-block;
+  float: right;
+  margin-right: 70px;
+}
+
+.btn a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+  /*ボタン全体をボタンにする */
+  display: block;
+  height: 100%;
+  /*---*/
+  padding-top: 10px;
+}
+
+.btn:hover{
+  background-color: #d94940;
+}
