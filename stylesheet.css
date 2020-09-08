@@ -12,6 +12,8 @@ body {
 
 /* -------------------- CSSはここから追加していきましょう！ -------------------- */
 
+
+
 .header-in p {
   margin: 0px;
   display: inline-block;
@@ -63,4 +65,99 @@ header {
 
 .btn:hover{
   background-color: #d94940;
+}
+
+/*----------ここからファーストビュー-------------*/
+
+p,h1,h2 {
+  text-align: center;
+  margin: 0;
+}
+
+.txtl {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.txtm {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.isaratop {
+  display: block;
+  background-image: url(images/main.jpg);
+  background-size: cover;
+  height: 500px;
+  text-align: center;
+}
+
+.isaratop h1 {
+  padding-top: 80px;
+  line-height: 50px;
+}
+
+.isaratop p {
+  font-weight: 600;
+  margin-top: 30px;
+}
+
+.ask {
+  background-color: #ebb94d;
+  height: 600px;
+  color: #fff;
+}
+
+.ask .txtm {
+  padding-top: 40px;
+}
+
+.ask-point {
+  background: #f9f2f4;
+  border-radius: 3px;
+  color: #c7264e;
+  width: 420px;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  font-weight: 600;
+}
+
+.btn2 {
+  width: 80%;
+  height: 104px;
+  border: 1px solid #db6b64;
+  background-color: #db6b64;
+  border-radius: 50px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+
+.btn2 a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 28px;
+  /*ボタン全体をボタンにする */
+  display: block;
+  height: 100%;
+  /*---*/
+  line-height: 104px;
+  /*line-heightをdivの高さに揃えてあげれば、高さ真ん中表示できる*/
+}
+
+.btn2:hover{
+  background-color: #d94940;
+}
+
+.ask h2 {
+  font-size: 21px;
+  margin-top: 30px;
+}
+
+.sns {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
