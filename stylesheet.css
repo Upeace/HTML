@@ -340,3 +340,26 @@ p,h1,h2 {
   font-size: 20px;
   letter-spacing: 2px;
 }
+
+/*----------ここからLearning-------------*/
+
+.txts {
+  font-size: 16px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.learning {
+  padding: 45px 0;
+}
+
+.learning-box {
+  margin: 40px 0;
+}
+
+.learning-box img{
+  margin-right: 15px;
+  padding: 0 15px;
+}
