@@ -363,3 +363,64 @@ p,h1,h2 {
   margin-right: 15px;
   padding: 0 15px;
 }
+
+/*-----------ここからmerit------------*/
+
+.txtss {
+  font-size: 14px;
+}
+
+.merit {
+  background-color: #fdf5e0;
+  padding-top: 30px;
+  height: 930px;
+}
+
+.merit .txtbox .txtl {
+  padding: 15px 0;
+  margin-bottom: 40px;
+}
+
+.merit-box {
+  margin-right: 0 10px;
+  width: 28%;
+}
+
+.merit h2 {
+  color: #ebb94d;
+  margin-bottom: 15px;
+  text-align: left;
+  font-size: 20px;
+  font-weight: 100;
+}
+
+.merit-box2 {
+  text-align: center;
+  margin: 30px;
+  border: 2px solid #ebb94d;
+  border-radius: 3px;
+  background-color: #fff;
+  height: 230px;
+}
+
+.merit-box2 h1 {
+  font-size: 28px;
+  font-weight: 600;
+  margin: 30px 0 10px 0;
+  text-align: center;
+  color: #ebb94d;
+}
+
+.merit-box2 h2 {
+  text-align: center;
+  color: #333;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.merit .txtss {
+  text-align: center;
+  margin-bottom: 10px; 
+  margin-right: 50px;
+  margin-left: 50px;
+}
