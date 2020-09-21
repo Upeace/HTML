@@ -53,6 +53,14 @@ header {
   margin-right: 70px;
 }
 
+.btn .btn-pc-txt {
+  display: block !important;
+}
+
+.btn .btn-sp-txt {
+  display: none !important;
+}
+
 .btn a{
   text-decoration: none;
   color: #fff;
@@ -69,6 +77,10 @@ header {
 }
 
 /*----------ここからファーストビュー-------------*/
+
+.brsp {
+  display:none;
+}
 
 p,h1,h2 {
   text-align: center;
@@ -424,3 +436,70 @@ p,h1,h2 {
   margin-right: 50px;
   margin-left: 50px;
 }
+
+/*--------------teacher-----------------*/
+
+.teacher {
+  padding: 50px 0 20px;
+  background-image: url(images/teacherbg.jpg);
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+}
+
+.teacher h2 {
+  color: #fff;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.teacher p {
+  color: #fff;
+  display: block;
+  margin: 0 0 20px;
+}
+
+.teacher-boxl {
+  width: 1170px;
+  max-width: calc(100% - 40px);
+  margin: 0 auto 25px;
+  padding-top: 180px;
+  display: flex;
+  justify-content: center;
+}
+
+.teacher-box {
+  border: solid 3px #fff;
+  box-sizing: border-box;
+  position: relative;
+  width: 375px;
+  margin: 0 15px;
+  padding: 0 40px 40px;
+}
+
+.teacher-img {
+  border-radius: 50%;
+  position: absolute;
+  top: -170px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.teacher-box .txtm {
+  padding-top: 26px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: 200;
+}
+
+.teacher-box .txts {
+  font-size: 14px;
+  font-weight: 200;
+  letter-spacing: 3px;
+  line-height: 25px;
+}
+
+
+
+
