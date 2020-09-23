@@ -500,6 +500,217 @@ p,h1,h2 {
   line-height: 25px;
 }
 
+/*----------ここからQ&A----------*/
 
+.qavoice {
+  padding-bottom: 40px;
+  
+}
 
+.flex-qa {
+  width: 900px;
+  max-width: calc(100% - 40px);
+  margin: 0 auto;
+}
 
+.qa-header {
+  background-color: #ebb94d;
+  padding: 40px 0;
+  position: relative;
+
+}
+
+.qa-header p {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-weight: 600;
+  font-size: 28px;
+  width: 690px;
+  color: #fff;
+  line-height: 30px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+}
+
+.qa-header .txtbox {
+  margin-top: 80px;
+}
+
+.qa-header .txtbox::before  {
+    content: "";
+    border-top: 4px solid #fff;
+    border-left: 4px solid #fff;
+    top: 0;
+    left: 0;
+  }
+  
+.qa-header .txtbox::after {
+  content: "";
+  border-bottom: 4px solid #fff;
+  border-right: 4px solid #fff;
+  margin: auto;
+  right: 0;
+  bottom: 0;
+}
+
+.qa-circle {
+  position: absolute;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  margin: 0 auto;
+}
+
+.qa-circle p {
+  text-align: center;
+  color:#ebb94d;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.triangle {
+  border-top: 30px solid #ebb94d;
+  border-right: 30px solid transparent;
+  border-left: 30px solid transparent;
+  margin: 0 auto;
+  width: 0;
+}
+
+.qavoice h2{
+  font-size: 28px;
+  padding-bottom: 10px;
+}
+
+.qavoice .bold{
+  font-size: 18px;
+  padding-bottom: 30px;
+}
+
+.qavoice .txts {
+  font-size: 14px;
+  padding-bottom: 40px;
+}
+
+.qa-box-img {
+  border: 3px solid #ebb94d;
+  margin: 0 20px 40px 20px;
+}
+
+.qa-box-txt {
+  font-size: 18px;
+  line-height: 30px;
+  padding: 0 0 0 15px;
+  width: 420px;
+}
+
+.qa-box-txt p {
+  margin-top: 18px;
+  text-align: left;
+}
+
+.qa-box-txt .txts{
+  text-decoration: underline;
+  text-decoration-color: #333;
+  letter-spacing: 2px;
+}
+
+/*           ここからlearnlist            */
+
+.learnlist {
+  color: #fff;
+  background-image: url(images/classbg.jpg);
+  background-size: cover;
+}
+
+.learnlist h1 {
+  padding-top: 40px;
+  font-size: 28px;
+}
+
+.learnlist p {
+  font-size: 16px;
+  padding: 10px 0;
+  font-weight: 600;
+}
+
+.learnlist .flex {
+  padding-top: 40px;
+  padding-bottom: 350px;
+}
+
+.learnlist h1 {
+  padding-top: 40px;
+}
+
+.learnlist-box-blue {
+  height: 454px;
+  margin-right: 15px;
+  background-color: #016da9;
+  background-size: cover;
+  border-radius: 5px;
+}
+
+.learnlist-box-blue-sec {
+  height: 299px;
+  margin-right: 15px;
+  background-color: #016da9;
+  background-size: cover;
+  border-radius: 5px;
+}
+
+.learnlist-box-blue h2{
+  text-align: center;
+  padding: 15px;
+  margin: 0 0 10px 0;
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+
+.learnlist-box-blue-sec h2{
+  text-align: center;
+  padding: 15px;
+  margin: 0 0 10px 0;
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+
+.learnlist-box-white {
+  width: 375px;
+  text-align: center;
+  border: solid 2px #016da9;
+  background-color: #fff;
+}
+
+.learnlist-box-blue .txts {
+  color: #333;
+  margin: 15px 0;
+  padding-bottom: 15px;
+  font-weight: 600;
+  border-bottom: dotted 1px #e5e5e5;
+}
+
+.learnlist-box-blue-sec .txts {
+  color: #333;
+  margin: 15px 0;
+  padding-bottom: 15px;
+  font-weight: 600;
+  border-bottom: dotted 1px #e5e5e5;
+}
+
+.learnlist-last {
+  background-color: #016da9;
+  
+}
+.learnlist-last p {
+  font-size: 20px;
+  text-align: center;
+  margin: 0;
+  padding: 45px 0;
+  font-weight: 600;
+}
