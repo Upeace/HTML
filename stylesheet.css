@@ -714,3 +714,73 @@ p,h1,h2 {
   padding: 45px 0;
   font-weight: 600;
 }
+
+/*              ここからlecture-flow              */
+
+.lecture-flow {
+  padding: 40px 0;
+}
+
+.lecture-flow h2 {
+  padding: 40px 0;
+}
+
+.lecture-img img {
+  padding-bottom: 30px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.lecture-flow-box {
+  box-sizing: border-box;
+  background-color: #fdf5e0;
+  margin: 0 auto;
+  width: 1080px;
+  max-width: calc(100% - 40px);
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 10px 35px;
+  display: flex;
+}
+
+.lecture-img-left {
+  padding: 20px;
+  width: 20%;
+  height: 167px;
+  text-align: center;
+  margin: 40px auto;
+}
+
+.lecture-img-left p {
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.lecture-flow-right {
+  width: 80%;
+  padding: 20px 0 0;
+}
+
+.lecture-flow-right p {
+  margin: 30px 10px;
+  font-size: 16px;
+  text-align: left;
+}
+
+.lecture-flow-right .txts {
+  font-size: 14px;
+}
+
+.flow-line-left {
+  text-align: center;
+  height: 64px;
+}
+
+.flow-line-left img {
+  margin: 0 auto;
+  width: 60%;
+  height: 64px;
+}
+
+/*         ここからwhy          */
