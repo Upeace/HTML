@@ -784,3 +784,41 @@ p,h1,h2 {
 }
 
 /*         ここからwhy          */
+
+.why {
+  background-image: url(images/bangkokbg.jpg);
+  background-size: cover;
+  color: #fff;
+  padding: 80px;
+}
+
+.txtaria {
+  width: 900px;
+  max-width: calc(100% - 40px);
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.why h2 {
+  text-align: left;
+  padding-left: 15px;
+  margin-bottom: 20px;
+}
+
+.why p {
+  text-align: left;
+  padding-left: 15px;
+  margin-bottom: 20px;
+}
+
+.why li {
+  font-weight: 600;
+  padding-bottom: 10px;
+}
+
+.why .txtm {
+  font-weight: bold;
+}
+
+/*  　　ここからbenefit　　　*/
+
