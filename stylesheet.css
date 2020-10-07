@@ -789,7 +789,7 @@ p,h1,h2 {
   background-image: url(images/bangkokbg.jpg);
   background-size: cover;
   color: #fff;
-  padding: 80px;
+  padding: 70px;
 }
 
 .txtaria {
@@ -822,3 +822,103 @@ p,h1,h2 {
 
 /*  　　ここからbenefit　　　*/
 
+.benefit {
+  background-color: #f8c23b;
+  margin: 0;
+  padding: 50px;
+
+}
+
+.white-txt {
+  color: #fff;
+}
+
+.benefit h2{
+  padding-bottom: 30px;
+  letter-spacing: 5px;
+}
+
+.txtaria {
+  text-align: center;
+  margin: 0 auto;
+  letter-spacing: 1px;
+  font-size: 16px;
+}
+
+.benefit-box {
+  border: 2px solid #fff;
+  box-sizing: border-box;
+  padding: 50px 0;
+  width: 1170px;
+  max-width: calc(100% - 40px);
+  margin: 0 auto;
+  position: relative;
+  margin-top: 50px;
+}
+
+.benefit-title {
+  font-size: 24px;
+  font-weight: bold;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: -20px;
+  background-color: #f8c23b;
+  width: 60%;
+  padding: 0 10px;
+  text-align: center;
+}
+
+.benefit-circle {
+  background-color: #fff;
+  border-radius: 50%;
+  padding: 60px 30px;
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+}
+
+.benefit-subtitle {
+  color: #f8c23b;
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+.benefit-txt .txts {
+  font-size: 14px;
+  margin: 0 auto 100px;
+  font-weight: 400;
+}
+
+
+/*      ここからvolunteer      */
+
+.volunteer {
+  padding: 30px 0;
+  background-image: url(images/specialdetail.jpg);
+  background-size: cover;
+  color: #fff;
+}
+
+.volunteer h2 {
+  padding: 20px 0;
+}
+
+.volunteer .txtm {
+  padding: 20px 0;
+  font-weight: bold;
+}
+
+.volunteer .txtbox::after {
+  border-color: #fff;
+}
+
+.volunteer .txtbox::before {
+  border-color: #fff;
+}
+
+.volunteer .txtbox .bold {
+  padding: 20px 0;
+  font-size: 24px;
+}
